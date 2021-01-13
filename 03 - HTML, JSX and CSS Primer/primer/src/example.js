@@ -21,3 +21,10 @@ const myFunc = function() {
 console.log("This statement is outside the function");
 
 myFunc();
+
+function myFuncParemeter(name, weather){
+    console.log("Hello " + name + ".");
+    console.log("It is " + weather + " today.");
+}
+
+myFuncParemeter("Adam", "sunny");
